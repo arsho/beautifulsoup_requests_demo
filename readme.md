@@ -5,17 +5,22 @@ It includes a list of exercises to introduce people to Python programming langua
 This repository also includes the PDF file of the exercises.
 
 ## Step to install Beautifulsoup and Requests inside virtualenv
-At first I have installed Beautifulsoup and Requests with Python3 in Ubuntu 15.04 machine.
-Create a folder and open terminal in it then write the following in terminal:
-1. $ virtualenv -p python3 venv
-2. $ source venv/bin/activate
-3. (venv)$ python -m pip install --upgrade pip
-4. (venv)$ python -m pip install --upgrade setuptools
-5. (venv)$ pip install requests
-6. (venv)$ pip install beautifulsoup4
-7. Keep the nytimes.py inside the venv folder
-8. (venv)$ python venv/nytimes.py
+To install Beautifulsoup and Requests with Python3 in Ubuntu,
+Create a folder and open terminal in it then write the following lines one by one in terminal:
+```bash
+ $ virtualenv -p python3 venv
+ $ source venv/bin/activate
+ (venv)$ python -m pip install --upgrade pip
+ (venv)$ python -m pip install --upgrade setuptools
+ (venv)$ pip install requests
+ (venv)$ pip install beautifulsoup4
+```
 
+ ## Step to run nytimes.py inside venv
+ Keep the nytimes.py inside the venv folder and write the following line in terminal
+```bash
+ (venv)$ python venv/nytimes.py
+```
 
 
 ## Contributing
