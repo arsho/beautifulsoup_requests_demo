@@ -16,9 +16,9 @@ Create a folder and open terminal in it then write the following lines one by on
  (venv)$ pip install beautifulsoup4
 ```
 
- ## Step to run nytimes.py inside venv
- Keep the nytimes.py inside the venv folder and write the following line in terminal
+## Step to run nytimes.py inside venv
 ```bash
+ Keep the nytimes.py inside the venv folder and write the following line in terminal
  (venv)$ python venv/nytimes.py
 ```
 
